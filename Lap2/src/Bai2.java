@@ -1,9 +1,6 @@
 import java.util.Scanner;
 
-/**
- * chanle
- */
-public class chanle {
+public class Bai2 {
 
     public static void main(String[] args) {
         int a;
@@ -12,7 +9,7 @@ public class chanle {
         a = sc.nextInt();
         if(a % 2 == 0)
             System.out.print(a + "la so chan");
-        if(a % 2 == 1) 
+        else
             System.out.print(a + "la so le");
     }
 }

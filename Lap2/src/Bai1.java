@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Toantu {
+public class Bai1 {
     public static void main(String[] args) {
         double a, b, Tong, Hieu, Tich, Thuong, Chiadu;
         Scanner sc = new Scanner(System.in);
