@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Slide16Chuong3 {
     //khai bao lop hinh tron
     class hinhTron {
-        //cac thuoc tinh
+        //cac thuoc tinh duong tron 
         final float PI = 3.14f;
         float r;
         float cv;
@@ -13,7 +13,7 @@ public class Slide16Chuong3 {
         void nhapBanKinh()
         {
             Scanner sc = new Scanner(System.in);
-            System.out.println("Ban kinh hinh tron = ");
+            System.out.print("Ban kinh hinh tron = ");
             r = sc.nextFloat();
             sc.close();
         }
