@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Slide41Chuong4 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner = new Scanner(System.in);
         LinkedList<String> linkedListString = new LinkedList<>();
         for (int i = 1; i<=12; i++) {
             linkedListString.add("Thang " + i);
